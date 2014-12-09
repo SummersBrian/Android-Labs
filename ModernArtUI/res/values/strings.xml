@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="more_information">More Information</string>
+    <string name="not_now">Not Now</string>
+    <string name="more_info_dialog">Inspired by colorful charts. Click to look at better works of art.</string>
+
+    <color name="BLACK">#000000</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="BLUE">#0000FF</color>
+    <color name="RED">#FF0000</color>
+    <color name="GREEN">#00FF00</color>
+
+</resources>

@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="490dp"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/viewWhite"
+            android:layout_width="180dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/WHITE" />
+
+        <View
+            android:id="@+id/viewBlack"
+            android:layout_width="180dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/BLACK" />
+
+        <View
+            android:id="@+id/viewGreen"
+            android:layout_width="180dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/GREEN" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="490dp"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/viewRed"
+            android:layout_width="180dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/RED" />
+
+        <View
+            android:id="@+id/viewBlue"
+            android:layout_width="180dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/BLUE" />
+
+        <View
+            android:id="@+id/viewWhite2"
+            android:layout_width="180dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/WHITE" />
+    </LinearLayout>
+    
+    <SeekBar 
+        android:id="@+id/seekBar"
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_below="@id/ll1"
+        android:background="@color/BLACK"/>
+    
+    
+</RelativeLayout>
